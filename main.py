@@ -1,26 +1,8 @@
 import shutil, os, time
 
-# while True:
-#     for filename in os.listdir('D:/trial/fol1'):
-#         if filename.endswith('.txt'):
-#             shutil.move( ('D:/trial/fol1/' + filename), 'D:/trial/fol2')
-#     time.sleep(6)
-
 your_source_folder = sf = 'D:/trial/fol1'
 your_master_destination_folder = mdf = 'D:/trial/fol2'
 
-
-
-# while True:
-#     for filename in os.listdir(sf):
-#         # print(type(filename))
-#         if filename.__contains__('#'):
-#             index = filename.find('#')
-#             final = filename.find('.')
-#             new_folder_name = filename[index+1:final]
-#             # print(new_folder_name)
-#             shutil.copy( ('D:/trial/fol1/' + filename), f'D:/trial/fol2/{new_folder_name}')
-#     time.sleep(5)
 
 def main():
     while True:
